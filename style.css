@@ -1,0 +1,190 @@
+
+/* ---------------------------------
+   GLOBAL PAGE
+---------------------------------- */
+
+.stApp {
+    background: #f3f7fc;
+    color: #193653;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* ---------------------------------
+   SIDEBAR
+---------------------------------- */
+
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #123b68, #092b50);
+}
+
+[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stRadio"] label {
+    padding: 8px;
+    border-radius: 7px;
+}
+
+[data-testid="stSidebar"] hr {
+    border-color: #52769b;
+}
+
+/* ---------------------------------
+   HEADINGS
+---------------------------------- */
+
+.main-heading {
+    color: #123b68;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.sub-heading {
+    color: #71869e;
+    font-size: 15px;
+    margin-bottom: 22px;
+}
+
+h1, h2, h3 {
+    color: #123b68 !important;
+}
+
+/* ---------------------------------
+   METRIC CARDS
+---------------------------------- */
+
+.metric-card {
+    background: #ffffff;
+    border: 1px solid #dce7f3;
+    border-left: 5px solid #2676bd;
+    border-radius: 12px;
+    padding: 20px;
+    min-height: 110px;
+    box-shadow: 0 3px 12px rgba(30, 70, 110, 0.06);
+    margin-bottom: 10px;
+}
+
+.metric-title {
+    color: #657e98;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.metric-value {
+    color: #123b68;
+    font-size: 27px;
+    font-weight: 800;
+    margin-top: 8px;
+}
+
+.metric-description {
+    color: #8a9db1;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* ---------------------------------
+   INFORMATION CARD
+---------------------------------- */
+
+.info-card {
+    background: #ffffff;
+    border: 1px solid #dce7f3;
+    border-radius: 12px;
+    padding: 20px;
+    color: #294d70;
+    line-height: 1.8;
+}
+
+/* ---------------------------------
+   BUTTONS
+---------------------------------- */
+
+.stButton > button {
+    background: #1769aa;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    min-height: 43px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.stButton > button:hover {
+    background: #0d477e;
+    color: white;
+    border: none;
+}
+
+/* ---------------------------------
+   FORM
+---------------------------------- */
+
+[data-testid="stForm"] {
+    background: white;
+    border: 1px solid #dce7f3;
+    border-radius: 12px;
+    padding: 22px;
+}
+
+/* ---------------------------------
+   INPUTS
+---------------------------------- */
+
+.stNumberInput input {
+    background: #ffffff;
+    color: #193653;
+    border-radius: 7px;
+}
+
+.stTextInput input {
+    background: #ffffff;
+    color: #193653;
+}
+
+/* ---------------------------------
+   DATAFRAME
+---------------------------------- */
+
+[data-testid="stDataFrame"] {
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #dce7f3;
+}
+
+/* ---------------------------------
+   ALERTS
+---------------------------------- */
+
+[data-testid="stAlert"] {
+    border-radius: 10px;
+}
+
+/* ---------------------------------
+   LATEX
+---------------------------------- */
+
+.stLatex {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #dce7f3;
+}
+
+/* ---------------------------------
+   DOWNLOAD BUTTON
+---------------------------------- */
+
+.stDownloadButton button {
+    background: #1769aa;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.stDownloadButton button:hover {
+    background: #0d477e;
+    color: white;
+}
